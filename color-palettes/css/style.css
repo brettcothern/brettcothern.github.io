@@ -1,0 +1,28 @@
+#p1-heading {
+    font-family: cursive;
+    text-align: center;
+}
+#p1-c1 {
+    background-color: #f05d23;
+    color: #261c15;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
+#p1-c2 {
+    background-color: #c5d86d;
+    color: #f05d23;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
+#p1-c3 {
+    background-color: #261c15;
+    color: #c5d86d;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
