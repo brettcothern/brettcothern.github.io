@@ -28,13 +28,13 @@
 }
 
 #p2-heading {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 #p2-c1 {
     background-color: #0dab76;
     color: #053b06;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
@@ -42,7 +42,7 @@
 #p2-c2 {
     background-color: #139a43;
     color: #053b06;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
@@ -50,20 +50,20 @@
 #p2-c3 {
     background-color: #053b06;
     color: #0dab76;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
 }
 
 #p3-heading {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 #p3-c1 {
     background-color: #124559;
     color: #ae3b0;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
@@ -71,7 +71,7 @@
 #p3-c2 {
     background-color: #598392;
     color: #aec3b0;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
@@ -79,7 +79,7 @@
 #p3-c3 {
     background-color: #aec3b0;
     color: #598392;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 
