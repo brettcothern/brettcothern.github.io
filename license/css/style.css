@@ -1,0 +1,80 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 24px;
+}
+div#content {
+    color: darkblue;
+}
+div#id-and-expiration {
+    display: inline-block;
+    color: blue;
+}
+#id-and-expiration span {
+    color: red;
+}
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+#left-side h4 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+#right-side img {
+    display: inline-block;
+    width: 65%;
+}
+#id-and-expiration div {
+    display: inline-block;
+}
+#small-pic-container, #data-fields {
+    display: inline-block;
+}
+div#small-pic-container img {
+    display: inline-block;
+    width: 35px;
+}
+#data-left {
+    display: inline-block;
+    color: blue;
+}
+#data-left span{
+    color: red;
+}
+#data-right {
+    display: inline-block;
+    color: blue;
+}
+#data-right span{
+    color: red;
+}
+#signature {
+    text-align: center;
+}
+#right-side img {
+    width: 100%;
+}
+#donor {
+    display: inline-block;
+    color: red;
+}
+.fa-solid fa-heart
+#real-id {
+    display: inline-block;
+}
