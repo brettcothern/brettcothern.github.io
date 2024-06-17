@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -9,72 +10,116 @@
 
 #license {
     width: 700px;
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 24px;
     padding: 24px;
+    box-shadow: 8px 8px 4px #0006;
+    background: linear-gradient(to bottom right, #fdcc73, #ed8c4f);
 }
-div#content {
-    color: darkblue;
+
+#content {
+    vertical-align: top;
 }
-div#id-and-expiration {
-    display: inline-block;
-    color: blue;
+
+h1 {
+    color: navy;
+    font-size: 60px;
+    margin: 0px
 }
-#id-and-expiration span {
-    color: red;
+
+h4 {
+    background-color: navy;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    padding: 8px;
 }
+
 #left-side {
     display: inline-block;
     width: 65%;
 }
-#left-side h4 {
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-}
+
 #right-side {
     display: inline-block;
     width: 34%;
 }
-#right-side img {
+
+div#id-and-expiration div{
     display: inline-block;
-    width: 65%;
+    color: navy;
+    margin: 8px;
 }
-#id-and-expiration div {
-    display: inline-block;
+
+span {
+    color: red;
 }
+
+#id-and-expiration div span {
+    color: red;
+    font-weight: bold;
+}
+
+#address {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 9px;
+}
+
 #small-pic-container, #data-fields {
     display: inline-block;
 }
-div#small-pic-container img {
+
+#small-pic-container img {
+    width: 90px;
+    opacity: 0.5;
+}
+
+#data-left, #data-right {
     display: inline-block;
-    width: 35px;
-}
-#data-left {
-    display: inline-block;
-    color: blue;
-}
-#data-left span{
-    color: red;
-}
-#data-right {
-    display: inline-block;
-    color: blue;
-}
-#data-right span{
-    color: red;
+    color: navy;
+    margin: 8px;
+    span { 
+        color: red;
+        font-weight: bold;
+    }
 }
 #signature {
     text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Ms Madi", cursive;
 }
 #right-side img {
     width: 100%;
 }
-#donor {
-    display: inline-block;
-    color: red;
+
+#donor-and-real-id {
+    text-align: center;
+    padding-top: 4px;
 }
-.fa-solid fa-heart
+
+#donor-and-real-id div{
+    display: inline-block;
+    text-align: right;
+}
+
+#donor {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-right: 24px;
+}
+
 #real-id {
     display: inline-block;
+    background-color: gold;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    padding: 4px;
+}
+#real-id i {
+    color: white;
 }
