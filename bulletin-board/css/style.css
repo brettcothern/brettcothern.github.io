@@ -1,0 +1,63 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it1 {
+    display: inline-block;
+    background-color: aqua;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
+
+.post-it2 {
+    display: inline-block;
+    background-color: rgb(226, 43, 180);
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
+
+.post-it3 {
+    display: inline-block;
+    background-color: rgb(10, 152, 79);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
+
+.post-it4 {
+    display: inline-block;
+    background-color: rgb(234, 255, 0);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
+
+.post-it5 {
+    display: inline-block;
+    background-color: rgb(43, 0, 84);
+    color: white;
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
+
+.post-it6 {
+    display: inline-block;
+    background-color: rgb(152, 10, 55);
+    color: white;
+    text-align: right;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+}
