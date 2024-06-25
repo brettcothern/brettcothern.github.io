@@ -86,3 +86,37 @@ img {
         margin: 0px;
     }
 }
+
+.button1 {
+    background-color: #1d0090;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button2 {
+    background-color: #0a8ba8;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button3 {
+    background-color: #ffffff;
+    border: 1px solid #1d0090;
+    border-radius: 25px;
+    color: #1d0090;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
