@@ -8,6 +8,8 @@
     of the setup.css styling if you do so.
 */
 * {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -57,6 +59,7 @@ img {
 
 .power {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .data {
