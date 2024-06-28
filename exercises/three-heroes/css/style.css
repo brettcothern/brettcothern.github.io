@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/hero1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 a, #hero-2 a, #hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #3c3838;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+#head {
+    padding: 50px 0px;
+    text-align: center;
+    border-top: 2px solid #3c3838;
+    border-bottom: 5px solid #3c3838;
+    a {
+        display: block;
+        border: 2px solid #3c3838;
+        max-width: 250px;
+        margin: 0px auto;
+        padding: 10px 20px;
+        color: #3c3838;
+        text-decoration: none;
+        box-shadow: 
+            inset 0px 0px 10px #3c3838,
+            0px 0px 10px #3c3838
+        ;
+    }
+}
+
+#hero-2 {
+    background-image: url(../images/hero2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-2 h1 {
+    color: white;
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+#hero-3 {
+    background-image: url(../images/hero3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-3 h1 {
+    color: white;
+    font-size: 15vw;
+    padding-left: 10vw;
+}
