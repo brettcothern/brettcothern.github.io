@@ -78,6 +78,7 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
@@ -85,7 +86,6 @@ body {
 #hero-2 h1 {
     color: white;
     font-size: 15vw;
-    padding-left: 10vw;
 }
 
 #hero-3 {
@@ -94,7 +94,8 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
 }
 
