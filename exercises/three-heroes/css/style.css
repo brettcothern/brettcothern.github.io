@@ -17,7 +17,27 @@ body {
     align-items: center;
 }
 
-#hero-1 a, #hero-2 a, #hero-3 a {
+#hero-1 a {
+    font-size: 5vw;
+    display: inline-block;
+    background-color: #3c3838;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #3c3838;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 a {
     font-size: 1.5vw;
     display: inline-block;
     background-color: #3c3838;
