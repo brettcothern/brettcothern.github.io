@@ -21,10 +21,20 @@ body {
 }
 
 #navbar3 {
-    background: linear-gradient(rgb(233, 140, 0), #6d4b00);
+    background: linear-gradient(rgb(255, 187, 0), #ce6a00);
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#bogo {
+    background: linear-gradient(rgb(255, 187, 0), #ce6a00);
+    text-align: center;
+}
+#bogo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 24px;
 }
 
 #navbar a {
@@ -95,7 +105,7 @@ body {
 
 #navbar3 .cta-button3 {
     background-color: white;
-    color: green;
+    color: rgb(168, 118, 18);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -118,7 +128,7 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background: linear-gradient(to bottom, yellowgreen, rgb(70, 70, 0));
     display: flex;
 }
 
