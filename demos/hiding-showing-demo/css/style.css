@@ -69,3 +69,50 @@ body {
         visibility 0.5s
     ;
 }
+
+#c4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 1s
+    ;
+}
+
+#c4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#c5 {
+    position: relative;
+
+}
+
+#c5 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #0003;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transition: translateY(0px);
+}

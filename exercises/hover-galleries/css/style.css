@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-contain1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-contain2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-contain3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    background-color: red;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    a {
+        background-color: yellow;
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;
+    }
+}
+
+.card2 {
+    background: linear-gradient(to left, lightgreen, green);
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    a {
+        background-color: rgb(16, 117, 33);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;
+    }
+}
+
+.card3 {
+    background-color: rgb(107, 107, 107);
+    border: 3px solid rgb(255, 0, 144);
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    a {
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;
+    }
+}
+
+#c1:hover {
+    background-color: rgb(255, 238, 0);
+    box-shadow: 2px 2px 2px;
+    transform: translateY(-8px);
+    a {
+        background-color: red;
+    }
+}
+
+#c1 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c2:hover {
+    background-color: rgb(255, 238, 0);
+    box-shadow: 2px 2px 2px;
+    transform: translateY(-8px);
+    a {
+        background-color: red;
+    }
+}
+
+#c2 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c3:hover {
+    background-color: rgb(255, 238, 0);
+    box-shadow: 2px 2px 2px;
+    transform: translateY(-8px);
+    a {
+        background-color: red;
+    }
+}
+
+#c3 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c4:hover {
+    background-color: rgb(255, 238, 0);
+    box-shadow: 2px 2px 2px;
+    transform: translateY(-8px);
+    a {
+        background-color: red;
+    }
+}
+
+#c4 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c5:hover {
+    box-shadow: 8px 8px 8px;
+    transform: translateY(10px);
+    a {
+        background: linear-gradient(to left, lightgreen, green);
+    }
+}
+
+#c5 {
+    transition:
+        background-color 1s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c6:hover {
+    box-shadow: 8px 8px 8px;
+    transform: translateY(10px);
+    a {
+        background: linear-gradient(to left, lightgreen, green);
+    }
+}
+
+#c6 {
+    transition:
+        background-color 1s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c7:hover {
+    box-shadow: 8px 8px 8px;
+    transform: translateY(10px);
+    a {
+        background: linear-gradient(to left, lightgreen, green);
+    }
+}
+
+#c7 {
+    transition:
+        background-color 1s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c8:hover {
+    box-shadow: 8px 8px 8px;
+    transform: translateY(10px);
+    a {
+        background: linear-gradient(to left, lightgreen, green);
+    }
+}
+
+#c8 {
+    transition:
+        background-color 1s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+#c9 {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 1s
+    ;
+}
+
+#c9:hover {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#c10 {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 1s
+    ;
+}
+
+#c10:hover {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#c11 {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 1s
+    ;
+}
+
+#c11:hover {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#c12 {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 1s
+    ;
+}
+
+#c12:hover {
+    opacity: 1;
+    transform: translateY(0px);
+}

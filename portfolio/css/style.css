@@ -66,11 +66,12 @@ img {
 }
 
 .content {
-    padding: 0px 120px;
+    padding: 0px 42px;
 }
 
 .img-container {
-    padding: 0px 135px 135px;
+    padding: 0px;
+    max-width: 500px;
 }
 
 #title {
@@ -244,9 +245,8 @@ a {
     padding-bottom: 20px;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
-    padding: 0px;
-    margin: 50px 500px;
+.img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    padding: 64px;
 
 }
 
@@ -267,6 +267,20 @@ a {
 
 #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9 {
     transition:
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover  {
+    background-color: #6B0000;
+    box-shadow: 4px 4px 4px #003;
+    transform: translateY(-4px);
+}
+
+.btn1, .btn2, .btn3 {
+    transition:
+        background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s
     ;
