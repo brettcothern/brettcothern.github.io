@@ -246,8 +246,9 @@ a {
 }
 
 .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
-    padding: 64px;
-
+    padding: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #info1, #info2, #info3, #info4, #info5, #info6, #info7, #info8, #info9 {
