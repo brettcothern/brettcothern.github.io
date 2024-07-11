@@ -71,6 +71,7 @@ img {
 
 .drop-contain {
     position: relative;
+    top: 100%;
 }
 
 .drop-menu {
