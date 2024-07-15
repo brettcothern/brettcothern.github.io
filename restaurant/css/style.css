@@ -1,0 +1,148 @@
+@import url("https://use.typekit.net/cql7igj.css");
+@import url("https://use.typekit.net/cql7igj.css");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#navbar {
+    background: linear-gradient(#C03794, #7E3393);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 24px;
+}
+
+#navbar img {
+    height: 80px;
+
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#hero {
+    background-image: url("../images/food.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "adorn-copperplate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero .hero-content {
+    text-align: left;
+    padding: 25px;
+}
+
+#hero h2 {
+    font-size: 100px;
+    color: #ffffff;
+    line-height: 100px;
+}
+
+#hero h4 {
+    font-size: 35px;
+}
+
+#hero a {
+    font-size: 18px;
+    display: inline-block;
+    background-color: white;
+    color: #1BACE3;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid #1BACE3;
+    align-items: center;
+}
+
+#layout {
+    width: 50%; 
+    min-width: 500px;
+    padding: 0px 50px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#layout h1 {
+    font-size: 36px;
+    color: #1BACE3;
+    font-family: "adorn-copperplate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#name1 {
+    font-weight: bold;
+    color: #1BACE3;
+}
+
+#layout img {
+    height: 100%;
+    max-height: 1000px;
+}
+
+#motto {
+    font-weight: bold;
+    color: #1BACE3;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #C03794, #7E3393);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+    #header, .layout, .footer-navbar {
+        flex-direction: column;
+    }
+    #hero h2 {
+        font-size: 50px;
+    }
+    #hero #motto {
+        font-size: 26px;
+        margin: 10px;
+    }
+}
