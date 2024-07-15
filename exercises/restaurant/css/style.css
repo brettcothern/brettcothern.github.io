@@ -116,6 +116,19 @@ body {
     font-style: normal;
 }
 
+#dish {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dish img {
+    margin: 100px;
+}
+
+.feature #info {
+    color: white;
+}
+
 #footer {
     background: linear-gradient(to bottom, #C03794, #7E3393);
     color: white;
