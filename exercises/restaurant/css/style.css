@@ -10,7 +10,7 @@ body {
     background-color: black;
 }
 
-#navbar {
+#header-navbar {
     background: linear-gradient(#C03794, #7E3393);
     display: flex;
     justify-content: space-between;
@@ -18,22 +18,21 @@ body {
     flex-wrap: wrap;
 }
 
-#navbar a {
+#header-navbar a {
     text-decoration: none;
     color: white;
     padding: 5px 24px;
 }
 
-#navbar img {
+#header-navbar img {
     height: 80px;
-
 }
 
-#navbar #logo {
+#header-navbar #logo {
     margin-right: auto;
 }
 
-#header {
+#header-navbar {
     position: sticky;
     top: 0px;
 }
@@ -119,43 +118,97 @@ body {
 #dish {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #dish img {
     margin: 100px;
 }
 
-.feature #info {
+#info {
     color: white;
+    text-align: center;
+    max-width: 800px;
 }
 
-#footer {
-    background: linear-gradient(to bottom, #C03794, #7E3393);
-    color: white;
-    padding: 12px;
+#info h3 {
+    font-size: 36px;
+    color: #1BACE3;
+    font-family: "adorn-copperplate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#footer a {
-    text-decoration: none;
+#dish p {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto auto;
+    gap: 20px;
     color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
 }
 
 #footer-navbar {
-    width: 800px;
+    background: linear-gradient(to bottom, #C03794, #7E3393);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    width: auto;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
 
-@media screen and (min-width: 480px) {
-    #header, .layout, .footer-navbar {
+#footer-navbar a {
+    text-decoration: none;
+    color: white;
+    padding-right: 36px;
+}
+
+#footer-navbar {
+    width: auto;
+    margin: 0px auto;
+}
+
+#footer-navbar span {
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #header-navbar, #footer-navbar {
         flex-direction: column;
     }
-    #hero h2 {
-        font-size: 50px;
+    .gallery {
+        grid-template-columns: 1fr;
     }
-    #hero #motto {
-        font-size: 26px;
-        margin: 10px;
+    .gallery img {
+        width: 100%;
+        font-size: 50px;
+        flex-direction: column;
     }
 }
