@@ -11,7 +11,7 @@ body {
 }
 
 #header-navbar {
-    background: linear-gradient(#C03794, #7E3393);
+    background: linear-gradient(#C03794, #233E96);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,14 @@ body {
 
 #header-navbar #logo {
     margin-right: auto;
+}
+
+#header-navbar h1 {
+    color: white;
+    text-align: center;
+    font-family: "adorn-copperplate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #header-navbar {
@@ -55,7 +63,7 @@ body {
 }
 
 #hero h2 {
-    font-size: 100px;
+    font-size: 80px;
     color: #ffffff;
     line-height: 100px;
 }
@@ -90,7 +98,7 @@ body {
 }
 
 #layout h1 {
-    font-size: 36px;
+    font-size: 50px;
     color: #1BACE3;
     font-family: "adorn-copperplate", sans-serif;
     font-weight: 400;
@@ -107,37 +115,36 @@ body {
     max-height: 1000px;
 }
 
-#motto {
-    font-weight: bold;
-    color: #1BACE3;
-    font-family: "big-caslon-fb", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 #dish {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 #dish img {
-    margin: 100px;
+    padding: 24px;
+    width: 800px;
+    height: 100%;
 }
 
 #info {
     color: white;
     text-align: center;
-    max-width: 800px;
+    max-width: 1200px;
+    padding-left: 50px;
 }
 
 #info h3 {
-    font-size: 36px;
+    font-size: 56px;
     color: #1BACE3;
     font-family: "adorn-copperplate", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#info #price {
+    color: #1BACE3;
+    font-size: 50px;
 }
 
 #dish p {
@@ -157,6 +164,7 @@ body {
     justify-content: center;
     width: 50%;
     margin: auto auto;
+    padding-bottom: 100px;
     gap: 20px;
     color: white;
     text-align: center;
@@ -173,8 +181,16 @@ body {
     }
 }
 
+#price {
+    color: #1BACE3;
+}
+
+#line {
+    margin: 10px;
+}
+
 #footer-navbar {
-    background: linear-gradient(to bottom, #C03794, #7E3393);
+    background: linear-gradient(to bottom, #C03794, #233E96);
     color: white;
     padding: 12px;
     text-align: center;
