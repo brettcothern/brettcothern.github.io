@@ -12,31 +12,36 @@ body {
 
 #header-navbar {
     background: linear-gradient(#C03794, #233E96);
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+
+
 }
 
 #header-navbar a {
     text-decoration: none;
     color: white;
-    padding: 5px 24px;
+    padding: 24px;
 }
+
 
 #header-navbar img {
     height: 80px;
 }
 
-#header-navbar #logo {
-    margin-right: auto;
-}
-
 #header-navbar h1 {
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     font-family: "adorn-copperplate", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.navlinks {
+    justify-self: end;
 }
 
 #header-navbar {
@@ -116,6 +121,7 @@ body {
 
 #dish {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -184,14 +190,18 @@ body {
     color: #1BACE3;
 }
 
-#line {
-    margin: 10px;
+#line1 {
+    margin: 36px;
+}
+
+#line2 {
+    margin: 36px;
 }
 
 #footer-navbar {
-    background: linear-gradient(to bottom, #C03794, #233E96);
-    color: white;
-    padding: 12px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 18px 24px;
     text-align: center;
     width: auto;
     margin: 0px auto;
@@ -201,7 +211,7 @@ body {
 
 #footer-navbar a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-right: 36px;
 }
 
