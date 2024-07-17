@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#heading {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+#team1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    height: 100%;
+}
+
+#team1 img {
+    padding: 60px;
+    width: 500px;
+    height: 100%;
+}
+
+#vs {
+    display: flex;
+    align-items: center;
+}
+
+#team2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    height: 100%;
+}
+
+#team2 img {
+    padding: 60px;
+    width: 500px;
+    height: 100%;
+}
+
+#info {
+    text-align: center;
+    padding: 24px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 0px;
+}
+
+#btn1 {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#btn2 {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+.btns a {
+    font-size: 18px;
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+}
+
+#number {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #heading, #teams, #info, #btns, #number {
+        flex-direction: column;
+    }
+}
