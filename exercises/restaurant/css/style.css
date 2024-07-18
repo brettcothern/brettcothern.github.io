@@ -16,8 +16,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #header-navbar a {
@@ -25,7 +23,6 @@ body {
     color: white;
     padding: 24px;
 }
-
 
 #header-navbar img {
     height: 80px;
@@ -127,7 +124,7 @@ body {
 }
 
 #dish img {
-    padding: 24px;
+    padding-top: 64px;
     width: 800px;
     height: 100%;
 }
@@ -190,12 +187,23 @@ body {
     color: #1BACE3;
 }
 
+#f1:hover, #f2:hover, #f3:hover, #f4:hover, #f5:hover, #f6:hover, #f7:hover, 
+#f8:hover, #f9:hover {
+    transform: translateY(-12px);
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9 {
+    transition:
+        transform 0.5s
+    ;
+}
+
 #line1 {
     margin: 36px;
 }
 
 #line2 {
-    margin: 36px;
+    margin: 64px;
 }
 
 #footer-navbar {
