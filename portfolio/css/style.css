@@ -326,6 +326,7 @@ a {
     .h-container, #layout, .cropped-grid-gallery, .single-column-card-container, 
     .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, 
     #footer-navbar {
+        display: flex;
         flex-direction: column;
     }
 }
