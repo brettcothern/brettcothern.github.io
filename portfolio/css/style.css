@@ -328,6 +328,33 @@ a {
     ;
 }
 
+#intro {
+    text-align: center;
+    padding: 10px 300px;
+}
+
+#about {
+    text-align: center;
+    padding: 10px 300px;
+}
+
+#about2 {
+    text-align: center;
+    padding: 10px 300px;
+}
+
+#ab_name {
+    font-weight: bold;
+}
+
+#ab_ps {
+    font-weight: bold;
+}
+
+#ab_pc {
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     .h-container, #layout, .cropped-grid-gallery, .single-column-card-container, 
     .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, 
