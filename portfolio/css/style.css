@@ -208,7 +208,6 @@ h1 {
     font-size: 48px;
     font-style: italic;
     text-align: center;
-    padding-top: 100px;
 }
 
 #head {
@@ -328,19 +327,19 @@ a {
     ;
 }
 
+.brett {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #intro {
     text-align: center;
-    padding: 10px 300px;
+    padding: 10px 200px;
 }
 
 #about {
     text-align: center;
-    padding: 10px 300px;
-}
-
-#about2 {
-    text-align: center;
-    padding: 10px 300px;
+    ;
 }
 
 #ab_name {
@@ -355,7 +354,7 @@ a {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
     .h-container, #layout, .cropped-grid-gallery, .single-column-card-container, 
     .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, 
     #footer-navbar {
