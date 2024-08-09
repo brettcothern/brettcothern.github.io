@@ -84,7 +84,7 @@ img {
 }
 
 .content {
-    padding: 20px 20px;
+    padding: 20px;
     grid-area: cont;
 }
 
@@ -153,6 +153,7 @@ img {
     grid-template-areas: ". cont img .";
     align-items: center;
     gap: 200px;
+    margin: auto;
 }
 
 .btn1, .btn2 {
