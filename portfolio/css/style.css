@@ -148,10 +148,9 @@ img {
 }
 
 #layout {
-    display: grid;
-    grid-template-columns: 1fr 735px max-content 1fr;
-    grid-template-areas: ". cont img .";
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 200px;
     gap: 200px;
 }
 
