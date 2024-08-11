@@ -340,13 +340,16 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-#intro {
+#about1 {
     text-align: center;
-    padding: 10px 200px;
+    padding: 10px 100px;
+
 }
 
-#about {
+#about2 {
     text-align: center;
+    padding: 10px 100px;
+
 }
 
 #ab_name {
