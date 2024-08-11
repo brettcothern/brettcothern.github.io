@@ -164,7 +164,7 @@ img {
     grid-template-columns: 1fr 735px max-content 1fr;
     grid-template-areas: ". cont img .";
     align-items: center;
-    gap: 200px;
+    gap: 50px;
 }
 
 .btn1, .btn2 {
