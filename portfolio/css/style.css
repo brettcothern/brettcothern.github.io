@@ -149,14 +149,14 @@ img {
     font-weight: 400;
     font-style: normal;
     text-align: right;
-    padding: 30px 0px 10px 150px;
+    padding: 30px 0px 10px 180px;
 }
 
 #programs {
     font-family: "Source Sans 3", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    font-style: normal;
+    font-style: italic;
 }
 
 #layout {
