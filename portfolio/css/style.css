@@ -89,7 +89,7 @@ img {
 }
 
 .img-container {
-    padding: 20px;
+    padding: 40px;
     max-width: 600px;
     grid-area: img;
 }
