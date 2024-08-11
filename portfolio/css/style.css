@@ -230,6 +230,10 @@ img {
     text-align: center;
 }
 
+#about {
+    padding: 0px 100px;
+}
+
 .cropped-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -237,7 +241,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 0px 400px;
+    padding: 0px 400px 20px;
     img {
         width: 400px;
         height: 400px;
