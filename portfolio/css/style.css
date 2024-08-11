@@ -98,8 +98,20 @@ img {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 48px;
-    padding: 50px;
+    font-size: 37px;
+    padding: 49px;
+}
+
+#discipline {
+    font-size: 70px;
+}
+
+#further {
+    font-size: 50px;
+}
+
+#motivation {
+    font-size: 60px;
 }
 
 #hi {
@@ -111,7 +123,7 @@ img {
 
 #mni {
     font-family: "Source Sans 3", sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 400;
     font-style: normal;
 }
