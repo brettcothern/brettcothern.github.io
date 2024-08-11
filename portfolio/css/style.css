@@ -365,15 +365,15 @@ a {
 }
 
 .exp img {
-    width: 60px;
+    width: 120px;
     border-radius: 80px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .exp2 img {
-    width: 60px;
+    width: 120px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
